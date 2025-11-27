@@ -70,8 +70,43 @@ const projects: IProjectItem[] = [
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/Siddhesh200419/Swiggy.git",
-    url: "swiggy-beta-olive.vercel.app",
+    url: "https://swiggy-beta-olive.vercel.app",
     tags: ["React.js", "Redux", "Tailwind CSS", "REST API", "Vercel"],
+  },
+  // 🔥 Chatty – realtime chat app
+  {
+    id: "chatty-mern-realtime",
+    title: "Realtime Chat App (MERN)",
+    description:
+      "A real-time chat application with authentication, online status, image sharing, and Socket.io-based messaging built on the MERN stack.",
+    icon: "/skills/react.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/Siddhesh200419/Chat-App",
+    url: "https://chatty-frontend-i6cv.onrender.com",
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Socket.io",
+      "Cloudinary",
+      "JWT",
+      "Zustand",
+    ],
+  },
+  // 🌐 Portfolio — Private Repo 🔒
+  {
+    id: "developer-portfolio",
+    title: "Developer Portfolio",
+    description:
+      "A modern personal portfolio website to showcase my projects, skills, and experience with a dark aesthetic and smooth animations.",
+    icon: "/skills/nextjs.png",
+    repoType: RepoType.Private, // 📌 Private!
+    projectType: ProjectType.Personal,
+    githubUrl: undefined, // ❌ No link exposed
+    url: "https://siddheshgite.vercel.app", // keep your real deployed URL
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
   },
 ];
 
