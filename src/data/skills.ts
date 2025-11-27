@@ -94,11 +94,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/react.svg",
       },
-      // {
-      //   title: "GetX",
-      //   level: SkillLevel.Expert,
-      //   icon: "/skills/getx.png",
-      // },
+      {
+        title: "Expo",
+        level: SkillLevel.Expert,
+        icon: "/skills/expo.svg",
+      },
     ],
   },
   {
