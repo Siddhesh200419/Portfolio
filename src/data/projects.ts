@@ -73,7 +73,6 @@ const projects: IProjectItem[] = [
     url: "https://swiggy-beta-olive.vercel.app",
     tags: ["React.js", "Redux", "Tailwind CSS", "REST API", "Vercel"],
   },
-  // 🔥 Chatty – realtime chat app
   {
     id: "chatty-mern-realtime",
     title: "Realtime Chat App (MERN)",
@@ -95,6 +94,49 @@ const projects: IProjectItem[] = [
       "Zustand",
     ],
   },
+  // 🎬 AI Image Based Short Video Generator — Private Repo 🔒
+  {
+    id: "ai-short-video-generator",
+    title: "AI Image Based Short Video Generator",
+    description:
+      "An AI-powered platform that converts user prompts into complete multimedia short videos using LLM-driven script generation, AI image synthesis, and text-to-speech pipelines with event-driven rendering.",
+    icon: "/skills/nextjs.png",
+    repoType: RepoType.Private,
+    projectType: ProjectType.Personal,
+    githubUrl: undefined,
+    url: undefined,
+    tags: [
+      "Google Gemini",
+      "LLM",
+      "Remotion",
+      "Inngest",
+      "Text-to-Speech",
+      "AI Image Generation",
+      "Next.js",
+    ],
+  },
+  // 📊 Social Media Trend Analysis using LLMs — Private Repo 🔒
+  {
+    id: "social-media-trend-analysis",
+    title: "Social Media Trend Analysis using LLMs",
+    description:
+      "An end-to-end real-time trend intelligence system that ingests Bluesky social data via atproto APIs, applies engagement-weighted trend detection, zero-shot topic classification, and multilingual sentiment analysis to surface actionable insights.",
+    icon: "/skills/nodejs.svg",
+    repoType: RepoType.Private,
+    projectType: ProjectType.Personal,
+    githubUrl: undefined,
+    url: undefined,
+    tags: [
+      "LLM",
+      "DistilBART-MNLI",
+      "BERT",
+      "atproto",
+      "Bluesky",
+      "NLP",
+      "Sentiment Analysis",
+      "Python",
+    ],
+  },
   // 🌐 Portfolio — Private Repo 🔒
   {
     id: "developer-portfolio",
@@ -102,10 +144,10 @@ const projects: IProjectItem[] = [
     description:
       "A modern personal portfolio website to showcase my projects, skills, and experience with a dark aesthetic and smooth animations.",
     icon: "/skills/nextjs.png",
-    repoType: RepoType.Private, // 📌 Private!
+    repoType: RepoType.Private,
     projectType: ProjectType.Personal,
-    githubUrl: undefined, // ❌ No link exposed
-    url: "https://siddheshgite.vercel.app", // keep your real deployed URL
+    githubUrl: undefined,
+    url: "https://siddheshgite.vercel.app",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
   },
 ];
