@@ -196,6 +196,46 @@ const projects: IProjectItem[] = [
     "Localization",
   ],
 },
+{
+  id: "anisage-chatbot",
+  title: "AniSage - Anime & Manga Chatbot",
+  description:
+    "A domain-specific AI chatbot for anime and manga built with a dark manga-panel aesthetic. Features halftone patterns, speed lines, Framer Motion animations, and a tuned 'Sensei' persona powered by Claude 3.5 Sonnet via OpenRouter with deep knowledge of studios, directors, and seasonal anime.",
+  icon: "/skills/react.svg",
+  repoType: RepoType.Public,
+  projectType: ProjectType.Personal,
+  githubUrl: "https://github.com/Siddhesh200419/Anisage-anime-chatbot.git", // add if available
+  url: "https://anisage-anime-chatbot.vercel.app/",       // add if available
+  tags: [
+    "React.js",
+    "Vite",
+    "Framer Motion",
+    "Express.js",
+    "Claude 3.5 Sonnet",
+    "OpenRouter",
+    "LLM",
+  ],
+},
+{
+  id: "mume-music-player",
+  title: "Mume - React Native Music Player",
+  description:
+    "A fully-featured cross-platform music streaming app built with React Native and Expo. Includes persistent background audio, a floating MiniPlayer, offline download support via expo-file-system, dynamic queue management, and Zustand-powered state with zero UI re-render overhead.",
+  icon: "/skills/react.svg",
+  repoType: RepoType.Public,
+  projectType: ProjectType.Personal,
+  githubUrl: "https://github.com/Siddhesh200419/Music-Player.git",
+  url: "https://drive.google.com/file/d/13dFE0MG-CFpFHgquEFdgqACLXDAwcmoG/view?usp=sharing",
+  tags: [
+    "React Native",
+    "Expo",
+    "Zustand",
+    "expo-av",
+    "expo-file-system",
+    "AsyncStorage",
+    "React Navigation",
+  ],
+},
 ];
 
 export default projects;
