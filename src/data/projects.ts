@@ -174,6 +174,28 @@ const projects: IProjectItem[] = [
     "Sentiment Analysis",
   ],
 },
+
+{
+  id: "caneiq-precision-farming",
+  title: "CaneIQ - Precision Farming for Sugarcane",
+  description:
+    "A Flutter mobile app for sugarcane farmers combining on-device AI, field monitoring, and smart farming insights. Features a farm health dashboard, TFLite-powered disease scanner, AI query assistant, weather forecasts, GIS map view, and Marathi localization support.",
+  icon: "/skills/flutter.svg", // replace with a Flutter icon path if you have one
+  repoType: RepoType.Public,
+  projectType: ProjectType.Personal,
+  githubUrl: "https://github.com/Siddhesh200419/Cane-IQ_Precision_Sugarcane_Farming.git",
+  url: "https://github.com/Siddhesh200419/Cane-IQ_Precision_Sugarcane_Farming.git",
+  tags: [
+    "Flutter",
+    "Dart",
+    "TFLite",
+    "Riverpod",
+    "Hive",
+    "GIS",
+    "On-device ML",
+    "Localization",
+  ],
+},
 ];
 
 export default projects;
