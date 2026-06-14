@@ -150,6 +150,30 @@ const projects: IProjectItem[] = [
     url: "https://siddheshgite.vercel.app",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
   },
+
+  {
+  id: "social-media-trend-analysis",
+  title: "Trend Pulse - Bluesky Social Media Analytics",
+  description:
+    "A full-stack application that analyzes Bluesky posts in real-time, detects trends, categorizes topics, and provides sentiment analysis using BERT and Mistral models. Features a Flask REST API backend and a React + Vite frontend with dashboards for trending categories, topic search, and detailed sentiment breakdowns.",
+  icon: "/skills/flask.png",
+  repoType: RepoType.Public,
+  projectType: ProjectType.Personal,
+  githubUrl: "https://github.com/Siddhesh200419/Social-Media-Trends-Analysis-LLM.git",
+  url: undefined,
+  tags: [
+    "Python",
+    "Flask",
+    "React.js",
+    "Vite",
+    "BERT",
+    "Mistral",
+    "atproto",
+    "Bluesky",
+    "NLP",
+    "Sentiment Analysis",
+  ],
+},
 ];
 
 export default projects;
