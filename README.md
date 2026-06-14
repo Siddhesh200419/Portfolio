@@ -1,70 +1,70 @@
-# 🌑 Portfolio Website — Next.js + Sass
+# Siddhesh Gite — Developer Portfolio
 
-A minimal and dark-themed portfolio website built using **Next.js** and **Sass**.  
-Fully customizable, easy to maintain, and designed to showcase projects, skills, and experience.
-
----
-
-## ✨ Features
-
-- Dark aesthetic UI  
-- Fully responsive layout  
-- Clean and modern animations  
-- Easy content customization  
-- Fast performance with Next.js  
+A minimal, dark-themed personal portfolio built with **Next.js**, **TypeScript**, and **Sass**.
+Showcases my projects, skills, and experience as a full-stack developer.
 
 ---
 
-## 🖥️ Screenshots
+## Features
 
-Add your screenshots inside the `public` folder and place them here.
+- Dark aesthetic UI
+- Fully responsive layout
+- Clean and modern animations
+- Project showcase with live links and GitHub repos
+- Fast performance with Next.js
 
+---
+
+## Preview
+
+<img width="1916" height="901" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/88cf28fd-382a-4864-bc48-ece422c7f9f8" />
+
+Live: [siddheshgite.vercel.app](https://siddheshgite.vercel.app)
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Siddhesh200419/portfolio-nextjs.git
+cd portfolio-nextjs
 ```
 
-<img width="1916" height="901" alt="image" src="https://github.com/user-attachments/assets/88cf28fd-382a-4864-bc48-ece422c7f9f8" />
-
-
-````
-
----
-
-## 🚀 Getting Started
-
-### **1. Install dependencies**
+### 2. Install dependencies
 
 ```bash
 npm install
-````
+```
 
-### **2. Run the development server**
+### 3. Run the development server
 
 ```bash
 npm run dev
 ```
 
-Now open:
-
-```
-http://localhost:3000
-```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🛠️ Customization
+## Customization
 
-All editable content is inside the `data` folder:
+All editable content lives inside the `data/` folder:
 
-* `projects.ts` → your projects
-* `skills.ts` → your skills
-* `services.ts` → services you offer
-* `experiences.ts` → your experiences
-* `socialLinks.ts` → your socials
+| File | What it controls |
+|------|-----------------|
+| `projects.ts` | Projects |
+| `skills.ts` | Tech skills |
+| `services.ts` | Services |
+| `experiences.ts` | Work experience |
+| `socialLinks.ts` | Social links |
 
-You can also replace images inside `public/images`.
+Replace images inside `public/images/` as needed.
 
 ---
 
-## 📦 Build for production
+## Build for Production
 
 ```bash
 npm run build
@@ -73,26 +73,26 @@ npm run start
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
-* Next.js
-* TypeScript
-
----
-
-## 📝 License
-
-You may use, modify, and adapt this portfolio freely.
+- **Next.js** — React framework
+- **TypeScript** — Type safety
+- **Sass** — Styling
+- **Framer Motion** — Animations
+- **Vercel** — Deployment
 
 ---
 
-## 🌘 Author
+## Author
 
-A dark-theme enjoyer & developer who builds clean interfaces and scalable applications.
+**Siddhesh Gite**
+Full-stack developer focused on MERN, React Native, and AI-powered applications.
 
-```
+- [siddheshgite.vercel.app](https://siddheshgite.vercel.app)
+- [github.com/Siddhesh200419](https://github.com/Siddhesh200419)
 
 ---
 
-If you want an **even darker, more minimal**, or **more aesthetic** version (like cyberpunk / midnight theme vibes), just say the word and I’ll remix it.
-```
+## License
+
+Feel free to use, modify, and adapt this portfolio for your own use.
