@@ -4,6 +4,7 @@ import {
   faTelegram,
   faInstagram,
   faXTwitter,
+  faLeetcode,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Strings from "@/constants/strings";
@@ -28,12 +29,18 @@ const socialLinks: ISocialLinkItem[] = [
     icon: faTelegram,
     text: Strings.telegramUsername,
   },
+  // {
+  //   name: Strings.instagram,
+  //   url: Strings.instagramLink,
+  //   icon: faInstagram,
+  //   text: Strings.instagramUsername,
+  // },
   {
-    name: Strings.instagram,
-    url: Strings.instagramLink,
-    icon: faInstagram,
-    text: Strings.instagramUsername,
-  },
+  name: Strings.leetcode,
+  url: Strings.leetcodeLink,
+  icon: faLeetcode,
+  text: Strings.leetcodeUsername,
+},
   {
     name: Strings.twitter,
     url: Strings.twitterLink,
